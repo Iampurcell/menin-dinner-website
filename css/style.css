@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.domine{
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+  background-color: #000;
+}
+.f-color{
+  color: #000 !important;
+}
+.carousel-item img{
+  height: 550px;
+  object-fit: cover;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* keeps it above other elements */
+  background-color: white; 
+}
+#home > div > div.col-12.col-lg-7.p-3.p-lg-5.pt-lg-3 > h1{
+  color: rgb(255, 101, 0) !important;
+}
+#home h3{
+  color: white !important;
+}
+#center-btn > a > button {
+  background-color: rgb(255, 101, 0) !important;
+}
+#center-btn > a > button:hover {
+  background-color: rgb(204, 82, 0) !important;
+}
+
+#home > div > div.col-12.col-lg-7.p-3.p-lg-5.pt-lg-3 > p.lead.mb-0{
+  color: white !important;
+}
+#home > div > div.col-12.col-lg-7.p-3.p-lg-5.pt-lg-3 > p.lead.text-center{
+  color: white !important;
+}
+.on-hover:hover{
+  color: rgb(255, 101, 0) !important;
+}
+.bg-body-tertiary {
+  background-color: #000 !important;
+}
+.text-body-emphasis{
+  color: white !important;
+}
+.text-bg-primary{
+  background-color: rgb(255, 101, 0) !important;
+}
+.btn-outline-warning{
+  color: rgb(255, 101, 0) !important;
+  border: 2px solid rgb(255, 101, 0);
+}
+.btn-outline-warning:hover{
+  background-color: rgb(255, 101, 0) !important;
+  color: white !important;
+  border: 2px solid rgb(255, 101, 0);
+}
+#menu .card.shadow-sm.h-100 {
+  background-color: rgb(242, 242, 242);
+}
+/* modify size of the contact boxes */
+.feature-icon-small{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  flex-shrink: 0;
+}
+/* On hover animation on contact link */
+.contact-link {
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #FF6500; 
+  transition: width 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #FF6500;
+  transform: translateX(2px);
+}
+
+.contact-link:hover::after {
+  width: 100%;
+}
+.text-body-secondary{
+  color: white !important;
+}
+.footer-link:hover{
+  color: #FF6500 !important;
+}
+@media (max-width: 991px) {
+  .pizza-img {
+    width: 100% !important;
+  }
+  .background-img-1{
+    background-image: url("../assets/img/kuku-choma.jpg") !important;
+  }
+  .background-img-2{
+    background-image: url("../assets/img/seafood.jpg") !important;
+  }
+  .background-img-3{
+    background-image: url("../assets/img/samaki-stew.jpg") !important;
+  }
+}
+
+

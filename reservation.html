@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body style="background-image: url(./assets/img/empty-glass.jpg); background-size: cover; ">
+    <!-- Reservation -->
+    <section id="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 my-5">
+            <form class="row g-3 bg-light bg-opacity-75 p-4 rounded" action="https://formspree.io/f/xqalvvdv" method="POST">
+              <div>
+                <h2 class="noto-serif" style="text-align: center;">Reserve Your Table</h2>
+                <p class="lead" style="text-align: center;">Plan your perfect dining experience at MenInDinner — Café & Bistro.
+                  <br>
+                  Reserve your table in seconds.</p>
+              </div>
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="Danniel" name="firstName" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Purcell" name="lastName" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="iampurcell9@gmail.com" name="email" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPhone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="inputPhone" name="phoneNumber" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="reservationDate" class="form-label">Reservation Date</label>
+                <input type="date" class="form-control" id="reservationDate" name="reservationDate" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="reservationTime" class="form-label">Reservation Time</label>
+                <input type="time" class="form-control" id="reservationTime" name="reservationTime" required="required">
+              </div>
+              <div class="col-md-6">
+                <label for="reservationType" class="form-label">Reservation Type</label>
+                <select id="reservationType" class="form-select" name="reservationType" required="required">
+                  <option selected="selected">Choose...</option>
+                  <option>Standard Dining</option>
+                  <option>Couple / Romantic Dinner</option>
+                  <option>Family / Group Reservation</option>
+                  <option>Birthday / Celebration Table</option>
+                  <option>Corporate / Business Lunch</option>
+                  <option>Private Event / Exclusive Booking</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="guestCount" class="form-label">Number of Guests</label>
+                <input type="number" class="form-control" id="guestCount" min="1" max="20" name="guestCount" required="required">
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <button type="submit" class="btn btn-outline-warning my-3">Reserve Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Bootstrap bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+
+</html>

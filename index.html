@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenInDinner Café & Bistro</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/img/fork-plate-knife-svgrepo-com.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <!--Navigation bar section-->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#home">
+            <img src="./assets/img/fork-knife.svg" width="50px" alt="logo" class="me-2">
+            <span class="fs-4 fw-bold domine">MenInDinner</span>
+          </a>
+
+          <!-- Toggler / Hamburger -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse domine" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color active on-hover" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="#featured-dish">Featured Dish</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="./reservation.html" target="_blank">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-5 f-color on-hover" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Home section-->
+    <section id="home">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-12 col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h3 class="display-4 fw-semibold lh-1 text-body-emphasis noto-serif">Yes!</h3>
+          <h3 class="display-4 fw-light lh-1 text-body-emphasis noto-serif">We are open !</h3>
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis domine">MenInDinner
+            <br>café & Bristo
+          </h1>
+          <p class="lead mb-0 ">Where flavor meets comfort. From fresh, hearty meals to perfect coffee moments, we serve experiences worth savoring in every visit.</p>
+          <p class="lead text-center ">" Good food. Good mood. Every time. "</p>
+          <div id="center-btn" class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3 ">
+            <a href="./reservation.html" target="_blank">
+              <button type="button" class="btn btn-lg px-4 me-md-2 fw-medium text-white custom-reserve-btn ">Reserve Your Table Now</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3 pizza-img" src="./assets/img/pizza.jpg" width="750px" alt="pizza-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="border-bottom">
+      <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3 ">
+          <img src="./assets/img/fork-knife.svg" alt="MenInDinner-logo" height="50px">
+          <h1 class="display-5 fw-medium lh-1 mb-4 text-body-emphasis noto-serif">Our Story</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted" style="color: white !important;">
+            At MenInDinner — Café & Bistro, we believe food is more than just a meal, it’s an experience. Born from a love of flavor and community, our kitchen blends comfort and creativity to serve dishes that satisfy both heart and soul.
+          </p>
+          <div class="container px-4 py-1" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded">
+                  <img src="./assets/img/egg-fried.svg" height="40px" alt="egg-fried">
+                </div>
+                <h3 class="fs-3 text-body-emphasis noto-serif fw-normal">Unique Flavors</h3>
+                <p class="lead" style="color: white;">At MenInDinner — Café & Bistro, every dish is crafted with creativity, offering a perfect balance of taste and originality that keeps our guests coming back for more.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded">
+                  <img src="./assets/img/leaf-fill.svg" height="40px" alt="leaf-fill">
+                </div>
+                <h3 class="fs-3 text-body-emphasis noto-serif fw-normal">Fresh Ingredients</h3>
+                <p class="lead" style="color: white;">We believe great food starts with the finest produce. That’s why we source fresh, high-quality ingredients to bring out natural flavors in every bite.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded">
+                  <img src="./assets/img/bag-heart.svg" height="40px" alt="bag-heart">
+                </div>
+                <h3 class="fs-3 text-body-emphasis noto-serif fw-normal">Exceptional Service</h3>
+                <p class="lead" style="color: white;">Our team is dedicated to making your visit unforgettable, with warm hospitality and attention to detail that make you feel right at home.</p>
+              </div>
+            </div>
+            <div class="d-inline-flex gap-2 mb-5">
+              <a href="#menu">
+                <button class="d-inline-flex align-items-center btn btn-outline-warning btn-lg px-4 rounded-pill" type="button">
+                  Explore Our Menu
+                  <img src="./assets/img/arrow-right-short.svg" alt="arrow-right-short" height="30px">
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Featured Dish -->
+    <section id="featured-dish" class="border-bottom" style="background-color: black;">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 display-6 fw-medium text-center text-body-emphasis noto-serif">Today’s Favorites</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg background-img-1" style="background-image: url('./assets/img/cake-wine.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-3 display-6 lh-1 fw-bold noto-serif">Cheese Board</h3>
+                <p>An elegant platter featuring a selection of fine cheeses, paired with crackers, grapes, and a drizzle of honey.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg background-img-2" style="background-image: url('./assets/img/burger.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-3 display-6 lh-1 fw-bold noto-serif">Gourmet Burger</h3>
+                <p>A juicy beef patty topped with melted cheese, fresh lettuce, and tomato, served with crispy fries.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg background-img-3" style="background-image: url('./assets/img/grapes-wine.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-3 display-6 lh-1 fw-bold noto-serif">Tuna Tartare</h3>
+                <p>Fresh tuna sashimi dressed with caviar, creamy avocado, and microgreens for a refined and flavorful appetizer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <h2 class="pb-2 mb-3 display-6 fw-medium text-center text-body-emphasis noto-serif">A Menu Made to Savor</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/coffee.jpg" alt="coffee">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Starter</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Coffee</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 8,000</span>
+                  </h4>
+                  <p class="card-text lead">A perfectly crafted latte with beautiful foam art, made from a rich espresso blend.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary ">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">2-5 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/samosa.jpg" alt="samosa">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Starter</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Samosas</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 10,000</span>
+                  </h4>
+                  <p class="card-text lead">Crispy fried pastries filled with a savory mixture of spiced potatoes and vegetables, served with a fresh salad.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">15-25 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/soup.jpg" alt="Beef-Stew">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Starter</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Beef Stew</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 20,000</span>
+                  </h4>
+                  <p class="card-text lead">A hearty and comforting beef stew with tender meat, potatoes, and carrots in a rich, savory broth, served with fresh bread.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">25-45 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/chicken.jpg" alt="Grilled-chicken">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Main Courses</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Grilled Chicken</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 35,000</span>
+                  </h4>
+                  <p class="card-text lead">A tender, marinated whole chicken, expertly grilled and served with a zesty pomegranate garnish.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">15-20 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/fried-fish.jpg" alt="Grilled-Salmon-Steak">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Main Courses</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Grilled Salmon Steak</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 45,000</span>
+                  </h4>
+                  <p class="card-text lead">Tender grilled salmon served with fresh greens, avocado, and creamy sauce.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">15-20 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/beef-burger.jpg" alt="Cheeseburger-Combo">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Main Courses</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Cheeseburger Combo</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 18,000</span>
+                  </h4>
+                  <p class="card-text lead">A juicy double cheeseburger with melted cheese, crisp lettuce, and savory sauce, served with fries and a cold Pepsi.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">10-15 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/carrot-juice.jpg" alt="Fresh-Carrot-Juice">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Fresh Juices</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Fresh Carrot Juice</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 5,000</span>
+                  </h4>
+                  <p class="card-text d-flex flex-column lead">A glass of pure, fresh carrot juice, packed with natural sweetness and nutrients. A healthy and delicious choice.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">3-5 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/cocktails.jpg" alt="Strawberry & Lime Slush">
+                <div class="card-body">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Cocktails/Mocktails</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Strawberry & Lime Slush</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 8,000</span>
+                  </h4>
+                  <p class=" lead card-text d-flex flex-column">A vibrant and refreshing combination of sweet strawberries and tangy lime, blended into a cool slushy. A delightful treat on a hot day.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">3-5 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/img/tee.jpg" alt="tea">
+                <div class="card-body d-flex flex-column">
+                  <h4 class="noto-serif">Category:
+                    <span class="fw-light">Hot Beverages</span>
+                  </h4>
+                  <h4 class="noto-serif">Name:
+                    <span class="fw-light">Hot Herbal Tea</span>
+                  </h4>
+                  <h4 class="noto-serif">Price:
+                    <span class="fw-light">Tsh 3,000</span>
+                  </h4>
+                  <p class=" lead card-text">A classic cup of hot tea, perfect for a cozy morning or a relaxing afternoon.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Place Order</button>
+                    </div>
+                    <small class="text-body-secondary">3-5 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          </div>
+          <h2 class="pb-2 border-bottom display-6 fw-medium text-center text-body-emphasis noto-serif">A Feast for Your Eyes</h2>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/chef-man.png" class="d-block w-100" alt="shrimp">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Chef’s Signature Dish</h5>
+                <p class="lead">A rotating selection crafted by our head chef, featuring seasonal ingredients and bold flavors. Ask your server for today’s creation.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/menu.jpg" class="d-block w-100" alt="chicken">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Crispy Fish Fillet Trio</h5>
+                <p class="lead">Three golden-fried fish fillets served with creamy herb sauce, fresh greens, and a citrus wedge.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/lamb.jpg" class="d-block w-100" alt="lamb">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Lamb with Roasted Potatoes</h5>
+                <p class="lead">Tender lamb chops topped with butter and herbs, served with crispy roasted potatoes.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/meat.jpg" class="d-block w-100" alt="freshed-meat">
+              <div class=" carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Raw Lamb Ribs</h5>
+                <p class="lead">A full rack of raw lamb ribs, seasoned and ready for cooking.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/fresh-orange-juice.jpg" class="d-block w-100" alt="fresh-orange-juice">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Orange Juice</h5>
+                <p class="lead">Cold-pressed from ripe oranges, served chilled with no added sugar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/shrimp.jpg" class="d-block w-100" alt="cake">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Fried Shrimp</h5>
+                <p class="lead">Lightly battered and fried shrimp, served over steamed vegetables with a side of toasted garlic bread.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/coffeee.jpg" class="d-block w-100" alt="coffee">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="noto-serif">Chocolate Layer Cake</h5>
+                <p class="lead">ich layers of chocolate sponge and mousse, garnished with dark chocolate shavings and a chocolate medallion.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+      <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="display-6 fw-medium  text-body-emphasis noto-serif">Get in Touch</h2>
+            <p class="lead text-light">We’d love to hear from you! Whether it’s booking a table, planning a celebration, or just saying hello, our team is always ready to connect.</p>
+          </div>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <img src="./assets/img/geo-alt.svg" height="24px" alt="geo-alt">
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis noto-serif">Our Address</h4>
+                <p class="text-light mb-0 ">MenInDinner — Café & Bistro</p>
+                <p class="text-light">123 Flavor Street, Dar es Salaam, Tanzania</p>
+              </div>
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <img src="./assets/img/telephone.svg" height="24px" alt="telephone">
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis noto-serif">Our Contact Info</h4>
+
+                <p class="mb-0 text-light">
+                  <a href="tel:+255769226009" class="text-light text-decoration-none contact-link">+255769226009</a>
+                </p>
+                <p class="text-light">
+                  <a href="mailto:menindinner@gmail.com" class="text-light text-decoration-none contact-link">menindinner@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary noto-serif footer-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link px-2 text-body-secondary noto-serif footer-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#featured-dish" class="nav-link px-2 text-body-secondary noto-serif footer-link">featured Dish</a>
+              </li>
+              <li class="nav-item">
+                <a href="#menu" class="nav-link px-2 text-body-secondary noto-serif footer-link">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a href="#gallery" class="nav-link px-2 text-body-secondary noto-serif footer-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="#reservation" class="nav-link px-2 text-body-secondary noto-serif footer-link">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link px-2 text-body-secondary noto-serif footer-link">Contact Us</a>
+              </li>
+            </ul>
+            <p class="text-center text-body-secondary noto-serif">© MenInDinner Café & Bistro
+            </p>
+          </footer>
+        </div>
+      </section>
+
+      <!--Bootstrap bundle-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+      <!-- Update Featured Dish -->
+      <script src="./featuredDish.js"></script>
+    </body>
+
+  </html>
